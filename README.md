@@ -99,6 +99,7 @@ ibmcloud es help
   ```
   ibmcloud es broker-config 0
   ```
+  This will return you details like log.cleaner.io.buffer.load.factor, sasl.enabled.mechanisms, delegation.token.max.lifetime.ms, offsets.topic.compression.codec, replication.quota.window.num, queued.max.request.bytes etc.
 
 6. Similarly, we can use cli to create topics, see the topic description, delete topics etc. Use the following commands to create a topic and see the topic details. Mention the topic name and number of partitions.
 Lite plan allows only one partition for topics. Here are some of the commands we can use.
@@ -126,7 +127,8 @@ Lite plan allows only one partition for topics. Here are some of the commands we
   ```
   Output
   ```
-  Topic name   kafka-java-console-sample-topic   OK
+  Topic name kafka-java-console-sample-topic   
+  OK
   ```
 
   To check details of your topic

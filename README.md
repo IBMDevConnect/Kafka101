@@ -44,7 +44,7 @@ You can use Event Streams to complete the following tasks:
 
 In Event Streams, applications send data by creating a message and sending it to a topic. To receive messages, applications subscribe to a topic and choose to either receive all the topic's messages or to share the messages between them. Event Streams hosts and maintains the messages in an ordered sequence.
 
-## Event Streams Starter Commands
+## Event Streams Starter Lab
 
 1. Login to your [IBM Cloud account](https://cloud.ibm.com/) and from the right top corner, navigate to IBM Cloud Shell.
 

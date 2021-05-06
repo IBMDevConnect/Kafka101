@@ -133,7 +133,7 @@ Lite plan allows only one partition for topics. Here are some of the commands we
   To check details of your topic
 
   ```
-  ibmcloud es kafka-java-console-sample-topic
+  ibmcloud es topic kafka-java-console-sample-topic
   ```
   Output
   ```
